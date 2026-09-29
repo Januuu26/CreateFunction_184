@@ -16,3 +16,5 @@ if unit.upper() == 'C':
     print(f"{input_suhu}°C = {konversi}°F")
 elif unit.upper() == 'F':
     print(f"{input_suhu}°F = {konversi}°C")
+else:
+    print("Konversi tidak dapat dilakukan karena satuan tidak valid.")
