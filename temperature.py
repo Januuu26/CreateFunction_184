@@ -4,4 +4,5 @@ def convert_temperature(value, unit):
 
     elif unit.upper() == 'F':
         return (value - 32) * 5/9
-    
+    else:   
+        print("Unit harus 'C' atau 'F'")
